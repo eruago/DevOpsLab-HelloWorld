@@ -37,7 +37,7 @@ with:
 #pip install flake8 pytest
 #if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
 - name: Integrations Test
-run: |
+#run: |
 python test.py
 deploy:
 needs: tests
